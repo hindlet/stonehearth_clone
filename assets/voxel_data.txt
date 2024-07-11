@@ -1,0 +1,6832 @@
+VoxModels {
+    version: Version(
+        150,
+    ),
+    models: [
+        Model {
+            size: (30, 30, 8),
+            voxels: [
+                Voxel {
+                    point: (0, 0, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 0, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 0, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 0, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (4, 0, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (25, 0, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (26, 0, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (27, 0, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (28, 0, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (29, 0, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (0, 1, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 1, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 1, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 1, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (4, 1, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (25, 1, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (26, 1, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (27, 1, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (28, 1, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (29, 1, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (0, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (4, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (5, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (6, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (7, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (8, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (9, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (10, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (11, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (12, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (13, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (14, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (15, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (16, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (17, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (18, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (19, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (20, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (21, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (22, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (23, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (24, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (25, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (26, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (27, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (28, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (29, 2, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (0, 3, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 3, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 3, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 3, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (4, 3, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (5, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 3, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 3, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (26, 3, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (27, 3, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (28, 3, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (29, 3, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (0, 4, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 4, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 4, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 4, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (4, 4, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (5, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 4, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 4, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (26, 4, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (27, 4, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (28, 4, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (29, 4, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 5, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 5, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 5, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 5, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 6, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 6, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 6, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 6, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 7, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 7, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 7, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 7, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 8, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 8, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 8, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 8, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 9, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 9, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 9, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 9, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 10, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 10, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 10, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 10, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 11, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 11, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 11, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 11, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 12, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 12, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 12, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 12, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 13, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 13, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 13, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 13, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 14, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 14, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 14, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 14, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 15, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 15, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 15, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 15, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 16, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 16, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 16, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 16, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 17, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 17, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 17, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 17, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 18, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 18, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 18, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 18, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 19, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 19, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 19, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 19, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 20, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 20, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 20, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 20, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 21, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 21, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 21, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 21, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 22, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 22, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 22, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 22, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 23, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 23, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 23, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 23, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 24, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 24, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (4, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (5, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (26, 24, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (27, 24, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (0, 25, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 25, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 25, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 25, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (4, 25, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (5, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 25, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 25, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (26, 25, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (27, 25, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (28, 25, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (29, 25, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (0, 26, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 26, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 26, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 26, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (4, 26, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (5, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (6, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (7, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (8, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (9, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (10, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (11, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (12, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (13, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (14, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (15, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (16, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (17, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (18, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (19, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (20, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (21, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (22, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (23, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (24, 26, 0),
+                    color_index: ColorIndex(
+                        2,
+                    ),
+                },
+                Voxel {
+                    point: (25, 26, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (26, 26, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (27, 26, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (28, 26, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (29, 26, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (0, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (4, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (5, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (6, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (7, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (8, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (9, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (10, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (11, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (12, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (13, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (14, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (15, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (16, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (17, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (18, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (19, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (20, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (21, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (22, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (23, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (24, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (25, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (26, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (27, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (28, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (29, 27, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (0, 28, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 28, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 28, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 28, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (4, 28, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (25, 28, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (26, 28, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (27, 28, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (28, 28, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (29, 28, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (0, 29, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 29, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (2, 29, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (3, 29, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (4, 29, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (25, 29, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (26, 29, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (27, 29, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (28, 29, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (29, 29, 0),
+                    color_index: ColorIndex(
+                        1,
+                    ),
+                },
+                Voxel {
+                    point: (1, 1, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (2, 1, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (3, 1, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (26, 1, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (27, 1, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (28, 1, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (1, 2, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (2, 2, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (3, 2, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (26, 2, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (27, 2, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (28, 2, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (1, 3, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (2, 3, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (3, 3, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (26, 3, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (27, 3, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (28, 3, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (12, 7, 1),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (13, 7, 1),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (12, 8, 1),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (13, 8, 1),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (6, 22, 1),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (7, 22, 1),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (6, 23, 1),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (7, 23, 1),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (1, 26, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (2, 26, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (3, 26, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (26, 26, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (27, 26, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (28, 26, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (1, 27, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (2, 27, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (3, 27, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (26, 27, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (27, 27, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (28, 27, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (1, 28, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (2, 28, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (3, 28, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (26, 28, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (27, 28, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (28, 28, 1),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (2, 2, 2),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (27, 2, 2),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (12, 7, 2),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (13, 7, 2),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (12, 8, 2),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (13, 8, 2),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (6, 22, 2),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (7, 22, 2),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (6, 23, 2),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (7, 23, 2),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (2, 27, 2),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (27, 27, 2),
+                    color_index: ColorIndex(
+                        26,
+                    ),
+                },
+                Voxel {
+                    point: (12, 7, 3),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (13, 7, 3),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (12, 8, 3),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (13, 8, 3),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (6, 22, 3),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (7, 22, 3),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (6, 23, 3),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (7, 23, 3),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (12, 7, 4),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (13, 7, 4),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (12, 8, 4),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (13, 8, 4),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (6, 22, 4),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (7, 22, 4),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (6, 23, 4),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (7, 23, 4),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (12, 7, 5),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (13, 7, 5),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (12, 8, 5),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (13, 8, 5),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (6, 22, 5),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (7, 22, 5),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (6, 23, 5),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (7, 23, 5),
+                    color_index: ColorIndex(
+                        6,
+                    ),
+                },
+                Voxel {
+                    point: (11, 6, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (12, 6, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (13, 6, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (14, 6, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (11, 7, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (12, 7, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (13, 7, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (14, 7, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (11, 8, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (12, 8, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (13, 8, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (14, 8, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (11, 9, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (12, 9, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (13, 9, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (14, 9, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (5, 21, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (6, 21, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (7, 21, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (8, 21, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (5, 22, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (6, 22, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (7, 22, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (8, 22, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (5, 23, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (6, 23, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (7, 23, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (8, 23, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (5, 24, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (6, 24, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (7, 24, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (8, 24, 6),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (12, 7, 7),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (13, 7, 7),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (12, 8, 7),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (13, 8, 7),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (6, 22, 7),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (7, 22, 7),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (6, 23, 7),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+                Voxel {
+                    point: (7, 23, 7),
+                    color_index: ColorIndex(
+                        11,
+                    ),
+                },
+            ],
+        },
+    ],
+    palette: Palette {
+        colors: [
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 200,
+                g: 33,
+                b: 10,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 84,
+                g: 40,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 81,
+                g: 175,
+                b: 35,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 29,
+                g: 56,
+                b: 118,
+                a: 255,
+            },
+            Color {
+                r: 28,
+                g: 83,
+                b: 0,
+                a: 255,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+            Color {
+                r: 0,
+                g: 0,
+                b: 0,
+                a: 0,
+            },
+        ],
+    },
+}
