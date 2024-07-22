@@ -4,8 +4,13 @@ use bevy::{color::palettes::css::WHITE, pbr::wireframe::{WireframeConfig, Wirefr
 mod building;
 mod voxels;
 use bevy_panorbit_camera::{PanOrbitCamera, PanOrbitCameraPlugin};
+use maths::{OctaveNoiseGen, SelectiveNoiseGen};
+use terrain::spawn_world_chunks;
 // use smooth_bevy_cameras::{controllers::fps::{FpsCameraBundle, FpsCameraController, FpsCameraPlugin}, LookTransformPlugin};
 use voxels::*;
+mod terrain;
+mod item;
+mod maths;
 // mod palette_gen;
 
 fn main() {
@@ -33,47 +38,65 @@ fn main() {
         .add_plugins(PanOrbitCameraPlugin)
         .add_systems(Startup, spawn_scene_basics)
         .add_systems(Update, toggle_wireframe)
-        .add_systems(Update, draw_axis)
+        .insert_resource(SelectiveNoiseGen::new(
+            345678907654,
+
+            4,
+            3.0,
+            0.5,
+            200.0,
+
+            4,
+            2.0,
+            0.8,
+            100.0,
+
+            100.0,
+            20.0
+        ))
+        .add_systems(PostStartup, world_gen_test)
+        // .add_systems(Update, draw_axis)
         .run();
 }
 
 
 
+
+
+fn world_gen_test(
+    mut commands: Commands,
+    noise_gen: Res<SelectiveNoiseGen>,
+    voxel_texture_handle: Res<VoxelTextureHandle>,
+    mut meshes: ResMut<Assets<Mesh>>
+) {
+    spawn_world_chunks(&mut commands, &noise_gen, voxel_texture_handle.material_handle.clone_weak(), &mut meshes, 10, 1, 32);
+}
+
+
 fn toggle_wireframe(
     keyboard_input: Res<ButtonInput<KeyCode>>,
     mut config: ResMut<WireframeConfig>,
-    // mut mesh_visiblity: Query<&mut Visibility, With<Handle<Mesh>>>
 ) {
-
-
     if keyboard_input.just_pressed(KeyCode::Space) {
         config.global ^= true;
-        // for mut visibility in mesh_visiblity.iter_mut() {
-        //     match visibility.to_owned() {
-        //         Visibility::Hidden => *visibility = Visibility::Visible,
-        //         Visibility::Visible => *visibility = Visibility::Hidden,
-        //         Visibility::Inherited => *visibility = Visibility::Hidden
-        //     }
-        // }
     }
-
 }
 
 fn spawn_scene_basics(
     mut commands: Commands,
     mut ambient_light: ResMut<AmbientLight>
 ) {
+    ambient_light.brightness = 200.0;
 
-    ambient_light.brightness = 1000.0;
+    commands.spawn(DirectionalLightBundle {
+        transform: Transform::default().looking_at(Vec3::new(1.0, -4.0, 1.0), Vec3::new(0.0, 1.0, 0.0)),
+        directional_light: DirectionalLight {
+            illuminance: 5000.0,
+            ..Default::default()
+        },
+        ..Default::default()
+    });
 
-    // commands
-    //     .spawn(Camera3dBundle::default())
-    //     .insert(FpsCameraBundle::new(
-    //         FpsCameraController::default(),
-    //         Vec3::new(-2.0, 5.0, 5.0),
-    //         Vec3::new(0., 0., 0.),
-    //         Vec3::Y,
-    //     ));
     commands.spawn((
         Camera3dBundle {
             transform: Transform::from_translation(Vec3::new(0.0, 1.5, 5.0)),
@@ -81,20 +104,15 @@ fn spawn_scene_basics(
         },
         PanOrbitCamera::default(),
     ));
-
 }
 
 
 
-fn draw_axis(
-    mut gizmos: Gizmos,
-) {
-    gizmos.axes(Transform::from_xyz(0.0, 0.0, 0.0), 5.0)
-}
-
-// fn read_voxel_test_data() {
-//     let vox_data = vox_format::from_file("assets/Test_Scene.vox").unwrap();
-//     let text = format!("{:#?}", vox_data);
-//     let mut file = File::create("assets/voxel_data.txt").unwrap();
-//     let _ = file.write(&text.into_bytes());
+// fn draw_axis(
+//     mut gizmos: Gizmos,
+// ) {
+//     gizmos.axes(Transform::from_xyz(0.0, 0.0, 0.0), 5.0)
 // }
+
+
+

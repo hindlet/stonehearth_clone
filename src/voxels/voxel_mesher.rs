@@ -1,7 +1,5 @@
-use std::time::Instant;
-
 use bevy::{prelude::*, render::{mesh::Indices, render_asset::RenderAssetUsages}, utils::HashMap};
-
+use crate::maths::quicksort_descending;
 use super::{get_voxel_colour_uv, VoxelGrid};
 
 
@@ -828,7 +826,7 @@ fn break_into_rects(grid: &Vec<bool>, width: u32, height: u32) -> Vec<(u32, u32,
         let all_rects = get_all_rectangles(&working_grid, width, height);
 
         // prioritise rects with larger areas
-        let mut sorted_rects = quicksort(all_rects);
+        let mut sorted_rects = quicksort_descending(all_rects);
         let mut rect_count = sorted_rects.len();
 
         #[allow(unused_assignments)]
@@ -950,28 +948,4 @@ fn get_all_rectangles(grid: &Vec<bool>, width: u32, height: u32) -> Vec<(u32, (u
     }
 
     rectangles
-}
-
-
-
-/// just grabbed from my rust_maths crate and changed to descending
-fn quicksort<T, P: PartialOrd + Copy>(list: Vec<(P, T)>) -> Vec<(P, T)>{
-    if list.len() <= 1 {return list;}
-
-    let mut less = Vec::new();
-    let mut equal = Vec::new();
-    let mut more = Vec::new();
-
-    let target_val = list[list.len() / 2].0;
-
-    for item in list {
-        if item.0 < target_val {less.push(item)}
-        else if item.0 > target_val {more.push(item)}
-        else {equal.push(item)}
-    }
-
-    let mut sorted = quicksort(more);
-    sorted.append(&mut equal);
-    sorted.append(&mut quicksort(less));
-    sorted
 }

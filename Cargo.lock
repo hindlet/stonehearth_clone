@@ -3964,6 +3964,8 @@ dependencies = [
  "bevy",
  "bevy_panorbit_camera",
  "image",
+ "rand",
+ "rand_chacha",
  "vox-format",
 ]
 
