@@ -13,7 +13,7 @@ pub enum VoxelType {
 
 /// For things that are not editable, such as creatures and stuff idk
 /// 1.0 scale -> 1 voxel per meter
-#[derive(Component, Clone)]
+#[derive(Component, Clone, Debug)]
 pub struct VoxelGrid {
     pub scale: f32,
     pub dims: UVec3,

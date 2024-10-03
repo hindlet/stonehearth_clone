@@ -4,7 +4,8 @@ use bevy::{color::palettes::css::WHITE, pbr::wireframe::{WireframeConfig, Wirefr
 mod building;
 mod voxels;
 use bevy_panorbit_camera::{PanOrbitCamera, PanOrbitCameraPlugin};
-use loading::LoadingPlugin;
+use items::{spawn_item_from_template, ItemMeshes, ItemTemplate};
+use loading::{ItemTemplateHandles, LoadingPlugin};
 use maths::{OctaveNoiseGen, SelectiveNoiseGen};
 use terrain::spawn_world_chunks;
 use ui::UIPlugin;
@@ -92,7 +93,8 @@ fn main() {
             100.0,
             20.0
         ))
-        .add_systems(OnEnter(AppState::Running), world_gen_test)
+        // .add_systems(OnEnter(AppState::Running), world_gen_test)
+        .add_systems(OnEnter(AppState::Running), spawn_test_item)
         // .add_systems(Update, draw_axis)
         .run();
 }
@@ -110,6 +112,21 @@ fn load_the_game_this_is_not_permenant(
     next_state.set(AppState::Running);
 }
 
+
+
+fn spawn_test_item(
+    mut commands: Commands,
+    item_templates: Res<Assets<ItemTemplate>>,
+
+    mut item_meshes: ResMut<ItemMeshes>,
+    mut mesh_assets: ResMut<Assets<Mesh>>,
+    material: Res<VoxelTextureHandle>,
+    asset_server: Res<AssetServer>
+) {
+    let handle = asset_server.load("item_templates/melee_weapons/test_sword.item.ron");
+    spawn_item_from_template(&mut commands, handle, &item_templates, &mut item_meshes, &mut mesh_assets, &material);
+    // println!("{:?}", item_meshes)
+}
 
 
 fn world_gen_test(

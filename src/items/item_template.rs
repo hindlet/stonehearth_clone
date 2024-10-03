@@ -6,14 +6,14 @@ use super::ItemTrait;
 
 
 
-#[derive(Serialize, Deserialize, Asset, TypePath, Clone)]
+#[derive(Serialize, Deserialize, Asset, TypePath, Clone, Debug)]
 pub enum ItemTemplate {
     InventoryItem(CraftingMaterial),
     Equipable(Equipment)
 }
 
 
-#[derive(Serialize, Deserialize, Clone, Debug)]
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Hash, Eq)]
 pub struct ItemTemplateInfo {
     pub name: String,
     pub voxel_path: String,

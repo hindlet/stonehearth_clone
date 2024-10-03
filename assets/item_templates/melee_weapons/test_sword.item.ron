@@ -1,7 +1,7 @@
 Equipable(MainHandWeapon((
     info: (
         name: "Test_Sword",
-        voxel_path: "melee_weapons/test_sword.vox",
+        voxel_path: "assets/item_voxels/melee_weapons/test_sword.vox",
         template_entity_info: "melee_weapons/test_sword.ron"
     ),
     atk_speed: 1.0,

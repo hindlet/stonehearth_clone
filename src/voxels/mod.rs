@@ -6,7 +6,7 @@ use std::time::Instant;
 
 use bevy::prelude::*;
 
-pub use vox_reader::read_vox_file;
+pub use vox_reader::{read_vox_file, read_vox_file_single};
 pub use voxel_mesher::*;
 // use voxel_mesher::test_rectangles;
 use voxel_texturing::*;
