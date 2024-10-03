@@ -14,7 +14,7 @@ pub use voxels::*;
 mod mesh_upgrade;
 use mesh_upgrade::MeshUpgradePlugin;
 pub use mesh_upgrade::MeshUpgradeStatus;
-pub use voxel_texturing::VoxelTextureHandle;
+pub use crate::loading::VoxelTextureHandle;
 
 
 
@@ -24,8 +24,7 @@ pub struct VoxelPlugin;
 impl Plugin for VoxelPlugin {
     fn build(&self, app: &mut App) {
         app
-            .add_plugins(MeshUpgradePlugin)
-            .add_systems(Startup, load_voxel_texture);
+            .add_plugins(MeshUpgradePlugin);
             // .add_systems(Startup, (load_voxel_texture, apply_deferred, load_test_voxel_mesh).chain());
             
     }

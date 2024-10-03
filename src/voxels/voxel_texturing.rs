@@ -2,28 +2,6 @@ use bevy::prelude::*;
 
 
 
-#[derive(Resource)]
-pub struct VoxelTextureHandle {
-    pub material_handle: Handle<StandardMaterial>,
-    pub _image_handle: Handle<Image>
-}
-
-pub fn load_voxel_texture(
-    mut commands: Commands,
-    asset_server: Res<AssetServer>,
-    mut materials: ResMut<Assets<StandardMaterial>>
-) {
-    let image_handle: Handle<Image> = asset_server.load("palette.png");
-    let material_handle = materials.add(StandardMaterial {
-        base_color_texture: Some(image_handle.clone()),
-        ..Default::default()
-    });
-
-    commands.insert_resource(VoxelTextureHandle {
-        _image_handle: image_handle,
-        material_handle
-    })
-}
 
 pub fn get_voxel_colour_uv(index: u8) -> [f32; 2]{
     let x = index % 16;

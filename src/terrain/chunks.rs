@@ -25,7 +25,7 @@ impl TerrainChunkBundle {
 
         TerrainChunkBundle {
             tag: TerrainChunkTag,
-            mesh_status: MeshUpgradeStatus::NaiveDefault(Instant::now()),
+            mesh_status: MeshUpgradeStatus::NaiveCustom(Instant::now(), Duration::from_secs(30)),
             pbr_bundle: PbrBundle {
                 mesh: meshes.add(mesh),
                 material: voxel_mat_handle,

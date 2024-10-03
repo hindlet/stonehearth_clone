@@ -15,6 +15,9 @@ pub fn spawn_world_chunks(
     depth: u32,
     chunk_side_length: u32,
 ) {
+
+    let offset = Vec3::new((chunk_side_length * diameter) as f32, 0.0, (chunk_side_length * diameter) as f32) * -0.5;
+
     for chunk_x in 0..diameter {
         for chunk_z in 0..diameter {
             for chunk_y in 0..depth {
@@ -48,7 +51,7 @@ pub fn spawn_world_chunks(
 
 
                 commands.spawn(TerrainChunkBundle::new(
-                    chunk_pos,
+                    chunk_pos + offset,
                     grid,
                     voxel_texture_handle.clone_weak(),
                     meshes

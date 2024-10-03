@@ -4,14 +4,41 @@ use bevy::{color::palettes::css::WHITE, pbr::wireframe::{WireframeConfig, Wirefr
 mod building;
 mod voxels;
 use bevy_panorbit_camera::{PanOrbitCamera, PanOrbitCameraPlugin};
+use loading::LoadingPlugin;
 use maths::{OctaveNoiseGen, SelectiveNoiseGen};
 use terrain::spawn_world_chunks;
+use ui::UIPlugin;
 // use smooth_bevy_cameras::{controllers::fps::{FpsCameraBundle, FpsCameraController, FpsCameraPlugin}, LookTransformPlugin};
 use voxels::*;
 mod terrain;
-mod item;
+mod items;
 mod maths;
+mod loading;
+mod ui;
 // mod palette_gen;
+
+
+
+
+const CHUNK_SIDE_LENGTH: u32 = 32;
+
+
+
+#[derive(States, Debug, Clone, PartialEq, Eq, Hash, Default)]
+pub enum AppState {
+    #[default]
+    Setup,
+
+    Loading,
+
+    MainMenu,
+
+    GameLoading,
+    Running,
+    Paused
+}
+
+
 
 fn main() {
     // palette_gen::gen_palette();
@@ -24,20 +51,31 @@ fn main() {
             }),
             ..default()
         }))
+
+        .init_state::<AppState>()
+
         .insert_resource(WireframeConfig {
-            // The global wireframe config enables drawing of wireframes on every mesh,
-            // except those with `NoWireframe`. Meshes with `Wireframe` will always have a wireframe,
-            // regardless of the global configuration.
             global: false,
-            // Controls the default color of all wireframes. Used as the default color for global wireframes.
-            // Can be changed per mesh using the `WireframeColor` component.
             default_color: WHITE.into(),
         })
-        .add_plugins((building::BuildingPlugin, WireframePlugin, voxels::VoxelPlugin))
+
+        .add_plugins((
+            building::BuildingPlugin, 
+            WireframePlugin, 
+            voxels::VoxelPlugin,
+            LoadingPlugin,
+            items::ItemPlugin,
+            UIPlugin
+        ))
+
         // .add_plugins((FpsCameraPlugin::default(), LookTransformPlugin))
         .add_plugins(PanOrbitCameraPlugin)
         .add_systems(Startup, spawn_scene_basics)
         .add_systems(Update, toggle_wireframe)
+        .add_systems(Startup, temp_change_state)
+        .add_systems(OnEnter(AppState::GameLoading), load_the_game_this_is_not_permenant)
+
+
         .insert_resource(SelectiveNoiseGen::new(
             345678907654,
 
@@ -54,12 +92,23 @@ fn main() {
             100.0,
             20.0
         ))
-        .add_systems(PostStartup, world_gen_test)
+        .add_systems(OnEnter(AppState::Running), world_gen_test)
         // .add_systems(Update, draw_axis)
         .run();
 }
 
 
+fn temp_change_state(
+    mut next_state: ResMut<NextState<AppState>>
+) {
+    next_state.set(AppState::Loading);
+}
+
+fn load_the_game_this_is_not_permenant(
+    mut next_state: ResMut<NextState<AppState>>
+) {
+    next_state.set(AppState::Running);
+}
 
 
 
@@ -69,7 +118,8 @@ fn world_gen_test(
     voxel_texture_handle: Res<VoxelTextureHandle>,
     mut meshes: ResMut<Assets<Mesh>>
 ) {
-    spawn_world_chunks(&mut commands, &noise_gen, voxel_texture_handle.material_handle.clone_weak(), &mut meshes, 10, 1, 32);
+    spawn_world_chunks(&mut commands, &noise_gen, voxel_texture_handle.material_handle.clone_weak(), &mut meshes, 10, 1, CHUNK_SIDE_LENGTH);
+    println!("Spawned Test Chunks");
 }
 
 
@@ -86,7 +136,7 @@ fn spawn_scene_basics(
     mut commands: Commands,
     mut ambient_light: ResMut<AmbientLight>
 ) {
-    ambient_light.brightness = 200.0;
+    ambient_light.brightness = 0.0;
 
     commands.spawn(DirectionalLightBundle {
         transform: Transform::default().looking_at(Vec3::new(1.0, -4.0, 1.0), Vec3::new(0.0, 1.0, 0.0)),
@@ -102,8 +152,18 @@ fn spawn_scene_basics(
             transform: Transform::from_translation(Vec3::new(0.0, 1.5, 5.0)),
             ..default()
         },
+        FogSettings {
+            color: Color::srgb(0.5, 0.5, 0.5),
+            falloff: FogFalloff::Linear {
+                start: 50.0,
+                end: 250.0,
+            },
+            ..default()
+        },
         PanOrbitCamera::default(),
     ));
+
+    // commands.insert_resource(ClearColor(Color::srgb(0.25, 0.25, 0.25)));
 }
 
 
