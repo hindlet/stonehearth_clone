@@ -6,7 +6,7 @@ use std::time::Instant;
 
 use bevy::prelude::*;
 
-pub use vox_reader::{read_vox_file, read_vox_file_single};
+pub use vox_reader::{read_vox_file, read_vox_file_single, VoxelScale};
 pub use voxel_mesher::*;
 // use voxel_mesher::test_rectangles;
 use voxel_texturing::*;
@@ -36,7 +36,7 @@ fn load_test_voxel_mesh(
     voxel_texture_handle: Res<VoxelTextureHandle>
 ) {
 
-    let grid = read_vox_file("assets/Test_Scene.vox")[0].clone();
+    let grid = read_vox_file("assets/Test_Scene.vox", VoxelScale::Terrain)[0].clone();
 
     commands.spawn(PbrBundle {
         material: voxel_texture_handle.material_handle.clone_weak(),

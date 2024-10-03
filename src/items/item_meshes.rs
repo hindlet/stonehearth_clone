@@ -1,6 +1,6 @@
 use bevy::{prelude::*, utils::HashMap};
 
-use crate::{mesh_voxels, read_vox_file_single, VoxelGrid, VoxelMesher};
+use crate::{mesh_voxels, read_vox_file_single, VoxelGrid, VoxelMesher, VoxelScale};
 
 use super::item_template::{ItemTemplate, ItemTemplateInfo};
 
@@ -22,9 +22,11 @@ pub fn get_item_mesh(
     template: &ItemTemplateInfo,
 ) -> Handle<Mesh> {
     if let Some((mesh_handle, _)) = meshes.0.get(template) {
+        println!("Item mesh exists");
         return mesh_handle.clone_weak();
     } else {
-        let grid = read_vox_file_single(&template.voxel_path);
+        println!("Item Mesh Does Not Exist, Creating Mesh");
+        let grid = read_vox_file_single(&template.voxel_path, VoxelScale::Entity);
         // makes sense to do fancy since we are unlikely to need to remesh
         let mesh_handle = mesh_assets.add(mesh_voxels(&grid, VoxelMesher::FancyMeshing));
         

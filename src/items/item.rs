@@ -34,7 +34,8 @@ pub fn spawn_item_from_template(
 
     item_meshes: &mut ItemMeshes,
     mesh_assets: &mut Assets<Mesh> ,
-    material: &VoxelTextureHandle
+    material: &VoxelTextureHandle,
+    spawn_pos: Vec3,
 ) {
     if let Some(template) = item_templates.get(&template_handle) {
         match template {
@@ -49,6 +50,7 @@ pub fn spawn_item_from_template(
                             .insert(PbrBundle {
                                 mesh: get_item_mesh(item_meshes, mesh_assets, info),
                                 material: material.material_handle.clone_weak(),
+                                transform: Transform::from_translation(spawn_pos),
                                 ..Default::default()
                             });
                     },

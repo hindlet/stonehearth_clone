@@ -93,8 +93,7 @@ fn main() {
             100.0,
             20.0
         ))
-        // .add_systems(OnEnter(AppState::Running), world_gen_test)
-        .add_systems(OnEnter(AppState::Running), spawn_test_item)
+        .add_systems(OnEnter(AppState::Running), (world_gen_test, spawn_test_item).chain())
         // .add_systems(Update, draw_axis)
         .run();
 }
@@ -124,7 +123,8 @@ fn spawn_test_item(
     asset_server: Res<AssetServer>
 ) {
     let handle = asset_server.load("item_templates/melee_weapons/test_sword.item.ron");
-    spawn_item_from_template(&mut commands, handle, &item_templates, &mut item_meshes, &mut mesh_assets, &material);
+    spawn_item_from_template(&mut commands, handle.clone(), &item_templates, &mut item_meshes, &mut mesh_assets, &material, Vec3::Y * 15.0);
+    spawn_item_from_template(&mut commands, handle, &item_templates, &mut item_meshes, &mut mesh_assets, &material, Vec3::Z * 2.0 + Vec3::Y * 15.0);
     // println!("{:?}", item_meshes)
 }
 
@@ -153,7 +153,7 @@ fn spawn_scene_basics(
     mut commands: Commands,
     mut ambient_light: ResMut<AmbientLight>
 ) {
-    ambient_light.brightness = 0.0;
+    ambient_light.brightness = 100.0;
 
     commands.spawn(DirectionalLightBundle {
         transform: Transform::default().looking_at(Vec3::new(1.0, -4.0, 1.0), Vec3::new(0.0, 1.0, 0.0)),
