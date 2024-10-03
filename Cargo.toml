@@ -8,9 +8,12 @@ edition = "2021"
 [dependencies]
 avian3d = "0.1.0"
 bevy = "0.14.0"
+bevy_common_assets = {version = "0.11.0", features = ["ron"]}
 bevy_panorbit_camera = "0.19.1"
 image = "0.25.1"
 rand = "0.8.5"
 rand_chacha = "0.3.1"
+ron = "0.8.1"
+serde = "1.0.204"
 # smooth-bevy-cameras = "0.11.0"
 vox-format = "0.1.0"

@@ -1,0 +1,6 @@
+InventoryItem((
+    info: (
+        name: "Stone",
+        voxel_path: "NO"
+    ),
+))
