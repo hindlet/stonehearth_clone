@@ -40,7 +40,7 @@ pub fn spawn_world_chunks(
                         let height = map[(z * chunk_side_length + x) as usize];
                         for y in 0..chunk_side_length {
                             if y as f32 <= height {
-                                grid.voxels.insert(UVec3::new(x, y, z), 8);
+                                grid.voxels.insert(UVec3::new(x, y, z), 3);
                             } else {
                                 // do not add voxel here
                             }
